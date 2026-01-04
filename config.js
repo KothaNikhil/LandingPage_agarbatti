@@ -4,7 +4,7 @@
 const CONFIG = {
     // Brand Information
     BRAND: {
-        name: "Divine Agrabatti",
+        name: "Divine Agarbatti",
         tagline: "Essence of Divinity in Every Stick",
         description: "Handcrafted, 100% natural incense for your moments of peace. Experience the traditional craft blended with modern purity to elevate your spiritual journey.",
         foundedYear: 1985,
@@ -16,7 +16,7 @@ const CONFIG = {
     // Contact Information
     CONTACT: {
         address: "123 Temple Road, Mysore, Karnataka 570001",
-        email: "hello@divineagrabatti.com",
+        email: "hello@divineagarbatti.com",
         phone: "+91 800 123 4567"
     },
 
@@ -157,3 +157,4 @@ const CONFIG = {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 }
+
