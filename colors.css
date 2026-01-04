@@ -1,0 +1,152 @@
+/* Global Colors CSS */
+/* Centralized color palette for the entire website */
+
+:root {
+    /* Primary Colors */
+    --color-primary: #FAC638;
+    --color-primary-dark: #5216d0;
+    
+    /* Background Colors */
+    --color-bg-light: #f8f8f5;
+    --color-bg-dark: #231e0f;
+    
+    /* Text Colors */
+    --color-text-dark: #231e0f;
+    --color-text-light: #f8f8f5;
+    --color-text-gray-900: #111827;
+    --color-text-gray-100: #f3f4f6;
+    
+    /* Neutral Colors */
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
+    --color-gray-300: #d1d5db;
+    --color-gray-400: #9ca3af;
+    --color-gray-500: #6b7280;
+    --color-gray-600: #4b5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+    --color-gray-900: #111827;
+    
+    /* Accent Colors */
+    --color-green-100: #dcfce7;
+    --color-green-400: #4ade80;
+    --color-green-500: #22c55e;
+    --color-green-600: #16a34a;
+    
+    --color-orange-100: #fed7aa;
+    --color-orange-400: #fb923c;
+    --color-orange-600: #ea580c;
+    
+    --color-purple-400: #c084fc;
+    --color-purple-500: #a855f7;
+    --color-purple-900: #581c87;
+    
+    --color-yellow-100: #fef3c7;
+    --color-yellow-600: #ca8a04;
+    
+    /* Border Colors */
+    --color-border-light: #e5e7eb;
+    --color-border-dark: rgba(255, 255, 255, 0.1);
+    
+    /* Shadow Colors */
+    --color-shadow: rgba(0, 0, 0, 0.1);
+    --color-shadow-dark: rgba(0, 0, 0, 0.3);
+}
+
+/* Light Mode Colors */
+.light {
+    --current-bg: var(--color-bg-light);
+    --current-text: var(--color-text-gray-900);
+    --current-border: var(--color-border-light);
+}
+
+/* Dark Mode Colors */
+.dark {
+    --current-bg: var(--color-bg-dark);
+    --current-text: var(--color-text-gray-100);
+    --current-border: var(--color-border-dark);
+}
+
+/* Utility Classes for Colors */
+.text-primary {
+    color: var(--color-primary);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-primary-dark {
+    color: var(--color-primary-dark);
+}
+
+.bg-primary-dark {
+    background-color: var(--color-primary-dark);
+}
+
+.border-primary {
+    border-color: var(--color-primary);
+}
+
+.shadow-primary {
+    box-shadow: 0 10px 15px -3px rgba(250, 198, 56, 0.25);
+}
+
+/* Background utilities */
+.bg-background-light {
+    background-color: var(--color-bg-light);
+}
+
+.dark .bg-background-dark {
+    background-color: var(--color-bg-dark);
+}
+
+/* Feature Icon Colors */
+.icon-green {
+    background-color: var(--color-green-100);
+    color: var(--color-green-600);
+}
+
+.dark .icon-green {
+    background-color: rgba(34, 197, 94, 0.2);
+    color: var(--color-green-400);
+}
+
+.icon-orange {
+    background-color: var(--color-orange-100);
+    color: var(--color-orange-600);
+}
+
+.dark .icon-orange {
+    background-color: rgba(251, 146, 60, 0.2);
+    color: var(--color-orange-400);
+}
+
+.icon-purple {
+    background-color: #e9d5ff;
+    color: var(--color-primary);
+}
+
+.dark .icon-purple {
+    background-color: rgba(168, 85, 247, 0.2);
+    color: var(--color-primary);
+}
+
+.icon-yellow {
+    background-color: var(--color-yellow-100);
+    color: var(--color-yellow-600);
+}
+
+.dark .icon-yellow {
+    background-color: rgba(202, 138, 4, 0.2);
+    color: var(--color-yellow-600);
+}
+
+/* Gradient utilities */
+.gradient-primary-purple {
+    background: linear-gradient(to right, var(--color-primary), var(--color-purple-400));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

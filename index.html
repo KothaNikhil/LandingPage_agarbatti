@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Divine Agrabatti - Premium Incense</title>
+
+    <!-- Global Style Files -->
+    <link href="colors.css" rel="stylesheet" />
+    <link href="typography.css" rel="stylesheet" />
+    <link href="animations.css" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Tailwind Config -->
+    <script
+        id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { primary: "#FAC638", "primary-dark": "#5216d0", "background-light": "#f8f8f5", "background-dark": "#231e0f" }, fontFamily: { display: "Manrope" }, backgroundImage: { "gradient-radial": "radial-gradient(var(--tw-gradient-stops))" }, borderRadius: { DEFAULT: "0.5rem", lg: "1rem", xl: "1.5rem", full: "9999px" } } } };</script>
+
+    <!-- Configuration File -->
+    <script src="config.js"></script>
+</head>
+
+<body
+    class="font-display bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 antialiased overflow-x-hidden transition-colors duration-300">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root">
+        <!-- Navbar -->
+        <header
+            class="sticky top-0 z-50 w-full backdrop-blur-lg bg-background-light/80 dark:bg-background-dark/80 border-b border-gray-200 dark:border-white/10 animate-fade-in">
+            <div class="layout-container flex justify-center w-full">
+                <div class="flex items-center justify-between w-full max-w-7xl px-4 md:px-10 py-4">
+                    <!-- Logo -->
+                    <div class="flex items-center gap-3">
+                        <div class="text-primary">
+                            <span class="material-symbols-outlined text-3xl">local_fire_department</span>
+                        </div>
+                        <h2 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">Divine Agrabatti</h2>
+                    </div>
+                    <!-- Desktop Nav -->
+                    <div class="hidden md:flex items-center gap-8">
+                        <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors" href="#collection">Shop</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+                    </div>
+                    <!-- Actions -->
+                    <div class="flex items-center gap-4">
+                        <button class="relative p-2 text-gray-900 dark:text-white hover:text-primary transition-colors">
+                            <span class="material-symbols-outlined">shopping_bag</span>
+                            <span class="absolute top-1 right-1 flex h-2 w-2">
+                                <span
+                                    class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                            </span>
+                        </button>
+                        <!-- Mobile Menu Button (Hidden on Desktop) -->
+                        <button class="md:hidden p-2 text-gray-900 dark:text-white">
+                            <span class="material-symbols-outlined">menu</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden w-full py-12 md:py-24 lg:py-32">
+            <!-- Background Glows -->
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
+                <div
+                    class="absolute top-10 left-10 w-96 h-96 bg-primary/20 rounded-full blur-[100px] mix-blend-screen animate-float-slow">
+                </div>
+                <div
+                    class="absolute bottom-10 right-10 w-[500px] h-[500px] bg-purple-900/30 rounded-full blur-[120px] mix-blend-screen animate-float">
+                </div>
+            </div>
+
+            <!-- Smoke Effects -->
+            <div class="absolute inset-0 overflow-hidden pointer-events-none">
+                <div class="smoke-particle smoke-particle-1" style="left: 5%; top: 50%;"></div>
+                <div class="smoke-particle smoke-particle-2" style="left: 15%; top: 40%;"></div>
+                <div class="smoke-particle smoke-particle-3" style="left: 10%; top: 60%;"></div>
+                <div class="smoke-particle smoke-particle-4" style="right: 10%; top: 30%;"></div>
+                <div class="smoke-particle smoke-particle-5" style="right: 5%; top: 50%;"></div>
+                <div class="smoke-particle smoke-particle-6" style="left: 50%; top: 20%;"></div>
+            </div>
+            <div class="layout-container flex justify-center px-4 md:px-10 relative z-10">
+                <div class="w-full max-w-7xl">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <!-- Hero Content -->
+                        <div class="flex flex-col gap-6 text-center lg:text-left animate-fade-in-up">
+                            <div
+                                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 w-fit mx-auto lg:mx-0 animate-slide-in-down animate-delay-1 hover:scale-105 transition-transform">
+                                <span class="material-symbols-outlined text-primary text-sm">auto_awesome</span>
+                                <span class="text-xs font-bold text-primary tracking-wide uppercase">New Collection
+                                    Available</span>
+                            </div>
+                            <h1
+                                class="text-4xl md:text-5xl lg:text-7xl font-black leading-tight tracking-tight text-gray-900 dark:text-white animate-fade-in-down animate-delay-2">
+                                Essence of <span
+                                    class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400 animate-color-cycle">Divinity</span>
+                                in Every Stick
+                            </h1>
+                            <p
+                                class="text-lg text-gray-600 dark:text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed animate-fade-in-up animate-delay-3">
+                                Handcrafted, 100% natural incense for your moments of peace. Experience the traditional
+                                craft blended with modern purity to elevate your spiritual journey.
+                            </p>
+                            <div class="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
+                                <button
+                                    class="h-12 px-8 rounded-xl bg-primary hover:bg-primary-dark text-white font-bold transition-all transform hover:scale-105 shadow-lg shadow-primary/25 flex items-center gap-2 animate-slide-in-left animate-delay-4 group hover-lift">
+                                    Shop Collection
+                                    <span
+                                        class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                                </button>
+                                <button
+                                    class="h-12 px-8 rounded-xl bg-gray-100 dark:bg-white/10 text-gray-900 dark:text-white font-bold hover:bg-gray-200 dark:hover:bg-white/20 transition-all backdrop-blur-sm border border-transparent dark:border-white/10 animate-slide-in-right animate-delay-4 hover-lift">
+                                    Our Story
+                                </button>
+                            </div>
+                            <div
+                                class="flex items-center justify-center lg:justify-start gap-8 pt-8 opacity-80 animate-fade-in-up animate-delay-5">
+                                <div class="flex flex-col">
+                                    <span class="text-2xl font-bold text-gray-900 dark:text-white">50+</span>
+                                    <span
+                                        class="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider">Fragrances</span>
+                                </div>
+                                <div class="w-px h-10 bg-gray-300 dark:bg-white/10"></div>
+                                <div class="flex flex-col">
+                                    <span class="text-2xl font-bold text-gray-900 dark:text-white">100K+</span>
+                                    <span
+                                        class="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider">Customers</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Hero Image -->
+                        <div class="relative group perspective-1000 animate-fade-in-left">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 rounded-2xl blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500 animate-pulse">
+                            </div>
+                            <div
+                                class="relative aspect-[4/5] md:aspect-square w-full rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-gray-900">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-transparent to-transparent z-10">
+                                </div>
+                                <div class="w-full h-full bg-cover bg-center transform transition-transform duration-700 group-hover:scale-110"
+                                    data-alt="Close up of burning incense sticks with mystic smoke swirling in dark background"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDaHc0RBVTR2l8JdnwU86640v2Ku2v7OIUkVR7GCVtEHlbXk-c9f9sijwPH26Svm5FYd11HCI9slUAxv0IHXr8Z5_H1eMo-Dsbdw9D69RvmnOZZ8Lvx0LtalOi-iyk2EBCc81T4dopXWGUCqG0e62VNVkPN5FQ3JKupcWbf_yxkd5QPi2PPiywmtm7DUYxLjpEQhkJAyLVPbk6nVlfHD0-aD6SQgPtGLt6EMaKcHwCCbNqye1Kix8FeZn_IzKy7-bHYnb6Bb8kUiQ');">
+                                </div>
+                                <!-- Floating Card -->
+                                <div
+                                    class="absolute bottom-6 left-6 right-6 z-20 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl flex items-center justify-between">
+                                    <div class="flex items-center gap-3">
+                                        <div
+                                            class="h-10 w-10 rounded-full bg-white/20 flex items-center justify-center">
+                                            <span class="material-symbols-outlined text-white">spa</span>
+                                        </div>
+                                        <div>
+                                            <p class="text-white font-bold text-sm">Lavender Bliss</p>
+                                            <p class="text-white/60 text-xs">Best Seller</p>
+                                        </div>
+                                    </div>
+                                    <div class="bg-primary/90 text-white text-xs font-bold px-3 py-1.5 rounded-lg">
+                                        $12.99
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features Section -->
+        <section class="w-full py-16 bg-white dark:bg-white/5 border-y border-gray-100 dark:border-white/5">
+            <div class="layout-container flex justify-center px-4 md:px-10">
+                <div class="w-full max-w-7xl">
+                    <div class="flex flex-col gap-12">
+                        <div class="max-w-2xl animate-fade-in-up">
+                            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Why Divine
+                                Agrabatti?</h2>
+                            <p class="text-gray-600 dark:text-gray-400 text-lg">We blend ancient traditions with pure
+                                ingredients to create fragrances that elevate your spirit and calm your mind.</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <!-- Feature 1 -->
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-white/5 border border-gray-200 dark:border-white/10 hover:border-primary/50 transition-colors group animate-fade-in-up animate-delay-1 hover-lift">
+                                <div
+                                    class="h-12 w-12 rounded-xl bg-green-100 dark:bg-green-500/20 text-green-600 dark:text-green-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                    <span class="material-symbols-outlined animate-bounce">eco</span>
+                                </div>
+                                <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">100% Natural</h3>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Made from completely organic
+                                    materials, charcoal-free and safe.</p>
+                            </div>
+                            <!-- Feature 2 -->
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-white/5 border border-gray-200 dark:border-white/10 hover:border-primary/50 transition-colors group animate-fade-in-up animate-delay-2 hover-lift">
+                                <div
+                                    class="h-12 w-12 rounded-xl bg-orange-100 dark:bg-orange-500/20 text-orange-600 dark:text-orange-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                    <span class="material-symbols-outlined animate-bounce">front_hand</span>
+                                </div>
+                                <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Traditional Craft</h3>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Hand-rolled by skilled artisans
+                                    preserving the ancient art.</p>
+                            </div>
+                            <!-- Feature 3 -->
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-white/5 border border-gray-200 dark:border-white/10 hover:border-primary/50 transition-colors group animate-fade-in-up animate-delay-3 hover-lift">
+                                <div
+                                    class="h-12 w-12 rounded-xl bg-purple-100 dark:bg-primary/20 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                    <span class="material-symbols-outlined animate-pulse-soft">auto_awesome</span>
+                                </div>
+                                <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Divine Fragrances</h3>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Scents meticulously curated to
+                                    soothe the soul and space.</p>
+                            </div>
+                            <!-- Feature 4 -->
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-white/5 border border-gray-200 dark:border-white/10 hover:border-primary/50 transition-colors group animate-fade-in-up animate-delay-4 hover-lift">
+                                <div
+                                    class="h-12 w-12 rounded-xl bg-yellow-100 dark:bg-yellow-500/20 text-yellow-600 dark:text-yellow-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                    <span class="material-symbols-outlined animate-spin">workspace_premium</span>
+                                </div>
+                                <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Premium Quality</h3>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">Quality checked for burn time and
+                                    fragrance consistency.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stats / History Section -->
+        <section class="w-full py-20 bg-background-light dark:bg-background-dark relative overflow-hidden" id="about">
+            <div class="absolute inset-0 bg-primary/5"></div>
+            <div class="layout-container flex justify-center px-4 md:px-10 relative z-10">
+                <div class="w-full max-w-7xl flex flex-col md:flex-row gap-12 items-center">
+                    <div class="flex-1 flex flex-col gap-6 animate-fade-in-left">
+                        <span class="text-primary font-bold tracking-wider uppercase text-sm">Our Legacy</span>
+                        <h2 class="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white">Crafting Divinity Since
+                            1985</h2>
+                        <p class="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+                            For over three decades, Divine Agrabatti has been synonymous with purity and tradition. What
+                            started as a small family endeavor in a temple town has grown into a global symbol of
+                            aromatic excellence.
+                        </p>
+                        <div class="grid grid-cols-2 gap-8 mt-4">
+                            <div class="animate-scale-in animate-delay-1">
+                                <h4 class="text-4xl font-bold text-primary mb-1">38+</h4>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 font-medium">Years of Excellence</p>
+                            </div>
+                            <div class="animate-scale-in animate-delay-2">
+                                <h4 class="text-4xl font-bold text-primary mb-1">100K+</h4>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 font-medium">Happy Customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full animate-fade-in-right">
+                        <div
+                            class="relative rounded-2xl overflow-hidden aspect-video shadow-2xl border border-white/10 hover-lift">
+                            <div class="absolute inset-0 bg-black/40 z-10"></div>
+                            <div class="w-full h-full bg-cover bg-center transition-transform duration-700 hover:scale-105"
+                                data-alt="Artisans rolling incense sticks by hand in a traditional workshop"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDPwviBOHWvnJXToIesRBJP5B-A8Hld-Dv-5YoWjlEN1f9rbt2hA992wCd6N5L7Xh5IFEuQ8vEZX3zfeNGjXS_lEjTSAL52w_52m439TRlnI7LVDjxYUx8jRAHMcmd-pPmidNIaKY4MleaEbte3orbemIk9GnPWA2h0yTwjKPypQyFhhiuqVbgZhds3lulW6KYlzeuPP1EKE5I1KAb_b9hOAV6MDeWf3LJwMVzIQU34xrQOZGlsWI2ZZZ58OSZWlmY-7k5z-nrvTQ');">
+                            </div>
+                            <div class="absolute bottom-6 left-6 z-20 max-w-sm animate-slide-in-up">
+                                <p class="text-white italic text-lg font-medium">"Scent is the language of the soul."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product Collection -->
+        <section class="w-full py-20" id="collection">
+            <div class="layout-container flex justify-center px-4 md:px-10">
+                <div class="w-full max-w-7xl">
+                    <div class="flex items-center justify-between mb-10 px-4 animate-fade-in-down">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Premium Collection</h2>
+                        <a class="text-primary font-bold hover:text-primary-dark transition-colors flex items-center gap-1 group"
+                            href="#">
+                            View All
+                            <span
+                                class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+                        <!-- Product 1 -->
+                        <div class="group flex flex-col gap-4 animate-fade-in-up animate-delay-1 hover-lift">
+                            <div class="relative overflow-hidden rounded-2xl aspect-[3/4] bg-gray-100 dark:bg-gray-800">
+                                <div
+                                    class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors z-10">
+                                </div>
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                    data-alt="Bundle of sandalwood incense sticks on dark textured stone"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAkrdocbHc_32OMTmqqjHO2RQs1heQNCh4O6j6bI6ZH6SKp9IPlMEaAMF2b3mW86Snjmd9QnIsGPFJHanVWW7jjeQPHBLNIdvWxZvxvmTdFU8RdQ_u3Bc6f3NU1307ZbEHMJWW3zz0gVZ-vhLroJBJaZnZOXiZkTW3fHU3k7i58UAYgmwBroYiopo7sMsPQV-aixkYu1-UT-e5KBnkdhUrtsDxY7FnGHb35VmryIk-mUiJYN8PZ8vgbrIgr-Bn9DIe31Aa32YK-tw');">
+                                </div>
+                                <button
+                                    class="absolute bottom-4 right-4 z-20 bg-white text-gray-900 p-3 rounded-full shadow-lg translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-white hover-lift">
+                                    <span class="material-symbols-outlined">add_shopping_cart</span>
+                                </button>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-start">
+                                    <h3
+                                        class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors">
+                                        Sandalwood Serenity</h3>
+                                    <p class="text-primary font-bold">$15.00</p>
+                                </div>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Woody &amp; Earthy</p>
+                            </div>
+                        </div>
+                        <!-- Product 2 -->
+                        <div class="group flex flex-col gap-4 animate-fade-in-up animate-delay-2 hover-lift">
+                            <div class="relative overflow-hidden rounded-2xl aspect-[3/4] bg-gray-100 dark:bg-gray-800">
+                                <div
+                                    class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors z-10">
+                                </div>
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                    data-alt="Dried rose petals and rose scented incense sticks"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuASE087wgaBr40NVKDbE0NMefmYpImsyzKgFqQ6keokpap_dHR7qHaI8_Ju_H_y2KfpsEri9NWkh5qTGLvXyI6111w0ju8-uMTADWxOuS04pwLCqxOrvqVC8uiUH0qGJ8cpit9dUD8fCVUnPa9l9MNzdAzrX6y-i218BwN83RF5rHBeAPe3sD8Rq21sFt2kk21aqKPNhHNDW_gvUAdjp9kGQZsgP0lS1VlWZcfLKrlaPn9KJw078kZGwFN_NjSukryVJi1YeHqAUA');">
+                                </div>
+                                <button
+                                    class="absolute bottom-4 right-4 z-20 bg-white text-gray-900 p-3 rounded-full shadow-lg translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-white hover-lift">
+                                    <span class="material-symbols-outlined">add_shopping_cart</span>
+                                </button>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-start">
+                                    <h3
+                                        class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors">
+                                        Rose Garden</h3>
+                                    <p class="text-primary font-bold">$14.00</p>
+                                </div>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Floral &amp; Sweet</p>
+                            </div>
+                        </div>
+                        <!-- Product 3 -->
+                        <div class="group flex flex-col gap-4 animate-fade-in-up animate-delay-3 hover-lift">
+                            <div class="relative overflow-hidden rounded-2xl aspect-[3/4] bg-gray-100 dark:bg-gray-800">
+                                <div
+                                    class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors z-10">
+                                </div>
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                    data-alt="Blue ocean waves representing fresh breezy scent"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBa7VN3iDCXJGnGH9vRZHldePb5lxjReXD2AAMtVFyv3QnHjJRCLhdZ7NEVzcNuAmgEU-6WZn5en_kKFofnstbl_BKzgDdUowKREhjlTuh9ag744JieSgLnXeZ-Sb4Y20EieYkYTAW38nEUEY9bRXtKtt8DXeOWuTxFSWcN-Lr_Kf4BEVewkPNy8cLblbk9862Ryz__3YjQcgbTQW2FKAUKvMCtbsN8d0qXtZQeZm1Cok6gBeOsBWXqOITH26Kh7UZT4kaCgQm9Cw');">
+                                </div>
+                                <button
+                                    class="absolute bottom-4 right-4 z-20 bg-white text-gray-900 p-3 rounded-full shadow-lg translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-white hover-lift">
+                                    <span class="material-symbols-outlined">add_shopping_cart</span>
+                                </button>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-start">
+                                    <h3
+                                        class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors">
+                                        Ocean Breeze</h3>
+                                    <p class="text-primary font-bold">$12.50</p>
+                                </div>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Fresh &amp; Aqua</p>
+                            </div>
+                        </div>
+                        <!-- Product 4 -->
+                        <div class="group flex flex-col gap-4 animate-fade-in-up animate-delay-4 hover-lift">
+                            <div class="relative overflow-hidden rounded-2xl aspect-[3/4] bg-gray-100 dark:bg-gray-800">
+                                <div
+                                    class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors z-10">
+                                </div>
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                    data-alt="Jasmine flowers and white incense sticks"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAaBf5S3LPM3gkXQUtYfOxqPdrIzwYIX9CmEVYGFmMYWDrHMGyIdKqDTp_PJIoNjxqmCPFMhM7pdfgwsZLVSP8EdyLq-GisKXKNzvx9f2trrq-6HsOONh6VDENt_TVABGQxn52yyuTXaHcdpUUgbuZTGBwhHJVoQ2tIjAKcPntYU_GUR-PC9fbs1ZQlhGclQjk3FdBJ_YpsSNR1elkoFUX-pw_UIpCbc5cwr5Q7Ng9wy2C70ET5VHJ3QsqYwN0-_C5YhtIELXzyjQ');">
+                                </div>
+                                <button
+                                    class="absolute bottom-4 right-4 z-20 bg-white text-gray-900 p-3 rounded-full shadow-lg translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-white">
+                                    <span class="material-symbols-outlined">add_shopping_cart</span>
+                                </button>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-start">
+                                    <h3
+                                        class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors">
+                                        Jasmine Dream</h3>
+                                    <p class="text-primary font-bold">$13.00</p>
+                                </div>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Floral &amp; Calming</p>
+                            </div>
+                        </div>
+                        <!-- Product 5 -->
+                        <div class="group flex flex-col gap-4 animate-fade-in-up animate-delay-5 hover-lift">
+                            <div class="relative overflow-hidden rounded-2xl aspect-[3/4] bg-gray-100 dark:bg-gray-800">
+                                <div
+                                    class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors z-10">
+                                </div>
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                    data-alt="Pink lotus flower reflecting on water surface"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA8mStbGgXFyEPEsP3zv-5_eXBvzCLspk6bAtPMK9JqHOKr324nN9_XObTN_jjeEy7ZHwpF1yNTn-bSU96H2kTDfLGztcFWRG6FnPTQwe4al9diSYy0gNKTOxtsGaQqSDxg0iP2vMP3rzQBD15CV7fpWEtsTvZWyAE-Kbor9EuqDaNzapa008wGCt34vgfFE-BAGzYBqaT0mkhPwLxW7yGngcObsd4NUgMMrdsVzLn1thPTBkMkuM_hq7lNJNc6nPPufqqczMgD5w');">
+                                </div>
+                                <button
+                                    class="absolute bottom-4 right-4 z-20 bg-white text-gray-900 p-3 rounded-full shadow-lg translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-white">
+                                    <span class="material-symbols-outlined">add_shopping_cart</span>
+                                </button>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-start">
+                                    <h3
+                                        class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors">
+                                        Lotus Bloom</h3>
+                                    <p class="text-primary font-bold">$16.00</p>
+                                </div>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Exotic &amp; Pure</p>
+                            </div>
+                        </div>
+                        <!-- Product 6 -->
+                        <div class="group flex flex-col gap-4 animate-fade-in-up animate-delay-5 hover-lift">
+                            <div class="relative overflow-hidden rounded-2xl aspect-[3/4] bg-gray-100 dark:bg-gray-800">
+                                <div
+                                    class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors z-10">
+                                </div>
+                                <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                    data-alt="Amber resin stones glowing warm light"
+                                    style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDT3uuLMHi6JKXPU0KWifL8bvlz2aqA4e-MIITtka197n445a_sjYxngsv0wimSEJSaXBN-LjoVBni6386rulxgBhm6MDjJ8xvPmjABfW89-1y0MYJGLzQxuSWgtek0HUXCfdCALy5q5KSGGl76p2FR_a7cVQ-vT6UCBUiX6XaJv2gAxrBXSDvMwIoP6zqqn0Ih_FL7hUadtkB41wbIE6XyZ1TfhI1KUdvv2E8dFCEEasVbIzPl7Ki56M9H17MllTp8h0kPLyhPsA');">
+                                </div>
+                                <button
+                                    class="absolute bottom-4 right-4 z-20 bg-white text-gray-900 p-3 rounded-full shadow-lg translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-white">
+                                    <span class="material-symbols-outlined">add_shopping_cart</span>
+                                </button>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-start">
+                                    <h3
+                                        class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary transition-colors">
+                                        Amber Essence</h3>
+                                    <p class="text-primary font-bold">$18.00</p>
+                                </div>
+                                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Warm &amp; Rich</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="w-full py-16 bg-white dark:bg-white/5 border-t border-gray-200 dark:border-white/10"
+            id="contact">
+            <div class="layout-container flex justify-center px-4 md:px-10">
+                <div class="w-full max-w-7xl">
+                    <div class="grid md:grid-cols-2 gap-16">
+                        <!-- Contact Info -->
+                        <div class="flex flex-col justify-center gap-6 animate-fade-in-left">
+                            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Get in touch</h2>
+                            <p class="text-gray-600 dark:text-gray-300 text-lg">
+                                Have questions about our fragrances or bulk orders? We'd love to hear from you.
+                                Experience the divine difference today.
+                            </p>
+                            <div class="flex flex-col gap-4 mt-4">
+                                <div
+                                    class="flex items-center gap-4 text-gray-700 dark:text-gray-300 animate-slide-in-left animate-delay-1">
+                                    <span class="material-symbols-outlined text-primary">location_on</span>
+                                    <span>123 Temple Road, Mysore, Karnataka 570001</span>
+                                </div>
+                                <div
+                                    class="flex items-center gap-4 text-gray-700 dark:text-gray-300 animate-slide-in-left animate-delay-2">
+                                    <span class="material-symbols-outlined text-primary">mail</span>
+                                    <span>hello@divineagrabatti.com</span>
+                                </div>
+                                <div
+                                    class="flex items-center gap-4 text-gray-700 dark:text-gray-300 animate-slide-in-left animate-delay-3">
+                                    <span class="material-symbols-outlined text-primary">call</span>
+                                    <span>+91 800 123 4567</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Form -->
+                        <div
+                            class="bg-background-light dark:bg-background-dark p-8 rounded-2xl shadow-xl border border-gray-200 dark:border-white/10 animate-fade-in-right hover-lift">
+                            <form class="flex flex-col gap-4">
+                                <div class="flex flex-col gap-1 animate-fade-in-up animate-delay-1">
+                                    <label class="text-sm font-bold text-gray-700 dark:text-gray-300">Name</label>
+                                    <input
+                                        class="h-12 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/20 px-4 text-gray-900 dark:text-white focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all placeholder:text-gray-400"
+                                        placeholder="Your name" type="text" />
+                                </div>
+                                <div class="flex flex-col gap-1 animate-fade-in-up animate-delay-2">
+                                    <label class="text-sm font-bold text-gray-700 dark:text-gray-300">Email</label>
+                                    <input
+                                        class="h-12 rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/20 px-4 text-gray-900 dark:text-white focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all placeholder:text-gray-400"
+                                        placeholder="Your email" type="email" />
+                                </div>
+                                <div class="flex flex-col gap-1 animate-fade-in-up animate-delay-3">
+                                    <label class="text-sm font-bold text-gray-700 dark:text-gray-300">Message</label>
+                                    <textarea
+                                        class="rounded-lg bg-white dark:bg-white/5 border border-gray-300 dark:border-white/20 p-4 text-gray-900 dark:text-white focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none placeholder:text-gray-400"
+                                        placeholder="Tell us what you're looking for..." rows="4"></textarea>
+                                </div>
+                                <button
+                                    class="mt-2 h-12 w-full rounded-xl bg-primary hover:bg-primary-dark text-white font-bold transition-all transform hover:scale-[1.02] shadow-lg shadow-primary/20 animate-fade-in-up animate-delay-4 hover-lift"
+                                    type="button">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer
+            class="w-full py-10 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-white/5 animate-fade-in">
+            <div class="layout-container flex justify-center px-4 md:px-10">
+                <div class="w-full max-w-7xl flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div class="flex items-center gap-2 animate-slide-in-left">
+                        <span
+                            class="material-symbols-outlined text-primary animate-pulse-soft">local_fire_department</span>
+                        <span class="font-bold text-gray-900 dark:text-white">Divine Agrabatti</span>
+                    </div>
+                    <div class="flex gap-6 text-sm font-medium text-gray-600 dark:text-gray-400">
+                        <a class="hover:text-primary transition-colors hover-lift" href="#">Privacy Policy</a>
+                        <a class="hover:text-primary transition-colors hover-lift" href="#">Terms of Service</a>
+                        <a class="hover:text-primary transition-colors hover-lift" href="#">Shipping Info</a>
+                    </div>
+                    <p class="text-sm text-gray-500 dark:text-gray-500 animate-fade-in-right">
+                        © 2023 Divine Agrabatti. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
